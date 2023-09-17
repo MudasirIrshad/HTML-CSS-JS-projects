@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Food</title>
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/queries.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/buy.css">
+</head>
+<body>
+    <header>
+        
+        <nav id="nav">
+            <div id="logo">
+                <img src="logos/logo.jpg" alt="">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <center>
+            <h1>Order Here</h1>
+            <form action="">
+                Name:   <br><input type="text"><br><br>
+                Account No. <br><input type="number" name="" id=""><br><br>
+                Address: <br><input type="text" name="" id=""><br><br>
+                Payment:
+<label>
+    <input type="checkbox" name="pay" value="cash" onclick="handlePaymentCheckbox(this)" /> Cash
+</label>
+<label>
+    <input type="checkbox" name="pay" value="online" onclick="handlePaymentCheckbox(this)" /> Online
+</label>
+
+<script>
+function handlePaymentCheckbox(checkbox) {
+    var checkboxes = document.getElementsByName('pay');
+    checkboxes.forEach(function(currentCheckbox) {
+        if (currentCheckbox !== checkbox) {
+            currentCheckbox.checked = false;
+        }
+    });
+}
+</script><br><br>
+<input type="submit" value="Order" onclick="showAlert()">
+<script>
+    function showAlert() {
+        alert("Order submitted!"); // Display an alert when the button is clicked
+    }
+</script>
+
+            </form>
+        </center> 
+    </main>
+</body>
+</html>

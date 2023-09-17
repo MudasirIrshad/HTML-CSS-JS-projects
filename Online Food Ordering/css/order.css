@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color:lightcyan;
+    /* color: white; */
+
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: darkcyan;
+    color: white;
+}
+td a{
+    text-decoration: none;
+    color: black;
+}
+
+td a:hover{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bolder;
+}
+body{
+    background-color: lightcyan;
+}

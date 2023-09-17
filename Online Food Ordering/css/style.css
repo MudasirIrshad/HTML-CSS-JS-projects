@@ -1,0 +1,166 @@
+/* CSS Reset */
+*{
+    margin: 0;padding: 0;
+}
+/* header{
+    position: s;
+    top: 0;
+    width: 100vw;
+} */
+/* Navigation Bar: Logo and Image */
+#logo img{
+    height: 5rem;
+}
+#logo img:hover{
+    color: white;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 1rem;
+    
+}
+#logo{
+    margin: .5rem;
+} 
+
+/* Navigation Bar Styling */
+#nav{
+    display: flex;
+    align-items: center;
+    /* background-color: black ; */
+    position: relative;
+    /* top: 0rem; */
+    background-color: grey;
+}
+
+/* Need to learn this property this will make you nav beautifull by making its bg little transparent */
+/* #nav::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+} */
+
+/* Navigation Bar:  Ul, list and <a> Styling */
+nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav ul li{
+    /* display: flex; */
+    font-size: 1.2rem;
+}
+nav ul li a{
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+/* HOME SECTION */
+#home{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* top: -5rem; */
+    /* padding: 3px 20px; */
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.3rem;
+    /* padding: 0 0 .5rem 0; */
+}
+#home::before{
+    content: "";
+    background:url("/images/homeimg1.jpg") no-repeat center/cover;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* SERVICES  */
+
+
+#services{
+    margin: 1rem;
+    display: flex;
+}
+#services .box{
+    border: .3rem solid brown;
+    margin: 1rem;
+    border-radius: 23px;
+    padding: 1rem;
+    background-color: lightcyan;
+    color: black;
+        
+}
+#services .box img{
+    height: 15rem;
+    display: block;
+    margin: auto;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  
+#about{
+    margin: 1rem;
+    display: flex;
+    /* justify-content: center; */
+}
+
+#about .box{
+    border: .3rem solid brown;
+    margin: 1rem;
+
+    border-radius: 23px;
+    padding: 1rem;
+    background-color:lightcyan;
+    
+}
+#services a{
+    text-decoration: none;
+}
+#services a .box:hover{
+    background-color:darkcyan;
+    border-radius: 4vh;
+    color: white;
+    transition: .30s;
+    border: wheat solid 1px;
+}
+
+#about .box img{
+    height: 15rem;
+    display: block;
+    margin: auto;
+}
+
+
+    
