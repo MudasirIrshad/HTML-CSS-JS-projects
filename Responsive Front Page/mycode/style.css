@@ -1,0 +1,314 @@
+body{
+    border: red 4px solid ;
+    border-style: double;
+}
+header ul{
+    display: flex;
+    width: 90vw;
+}
+header ul #img1{
+    height: 25px;
+    margin-right: auto;
+    padding: 0 2rem;
+}
+header ul #img2{
+    height: 25px;
+    /* margin-left: auto; */
+    margin: 0 1px;
+    
+}
+
+ul #li1{
+    list-style-type: none;
+    padding: 0  0 0 2rem ;
+}
+ul #li2{
+    list-style-type: none;
+    padding: 0 6rem 0 1rem ;
+}
+main{
+    padding: 0 5px;
+}
+#mainBox{
+    margin: auto;
+    display: flex;
+    
+    align-items: center;
+    color: white;
+    background:rgba(0,0,0,0.55) url(../images/featured.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 500px;
+    border: solid 1px black;   
+}
+#inbox{
+    /* display: block; */
+    width: 500px;
+    line-height: 18px;
+    margin:0 6rem 0;
+}
+#inbox h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#inbox #p1{
+    background-color: orange;
+    width: 50px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 13px;
+}
+#inbox button{
+    background-color: red;
+    color: white;
+    width: 80px;
+    border: none;
+    height: 30px;
+}
+#new{
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    margin:0;
+    /* text-align: left; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#new h3{
+    margin: 1rem 27.5rem 0 0;
+}
+.nOne{
+    display: flex;
+    width: 580px;
+    align-items: center;
+    padding: .5rem;
+}
+.nOne img{
+    height: 110px;
+    width: 130px;
+    padding: 0 .5rem 0 0;
+}
+#oneOne{
+    width: 800px;
+    height: 180px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin: 1rem;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nOne b{
+    display: block;
+    background-color: rgb(175, 84, 175);
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    border-radius: 7px;
+}
+#oneTwo{
+    background-color: black;
+    color: white;
+    height: 180px;
+    font-size: smaller;    
+}
+#oneTwo h3{
+    margin: .5rem  .5rem 0 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#first{
+    background-color: darkorange;
+    width: 50px;
+    margin: .5rem  .5rem 0 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    text-align: center;
+    border-radius: 10px;
+}
+#second{
+    margin: .5rem  .5rem 0 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ntwo{
+    display: flex;
+    width: 580px;
+    align-items: center;
+    padding: .5rem;
+    
+}
+.ntwo img{
+    height: 110px;
+    width: 140px;
+    padding: 0 .5rem 0 0;
+}
+
+#twoOne{
+    /* width: 800px; */
+    
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* align-items: center; */
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: .5rem;
+}
+#twotwo{
+    width: 800px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    margin: 1rem;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#twoOne img{
+    width: 170px;
+}
+#twotwo b{
+    display: block;
+    background-color: darkorange;
+    width: 50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+#twoOne b{
+    display: block;
+    background-color: darkcyan;
+    width: 50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+#three b{
+    display: block;
+    background-color: darkorange;
+    width: 50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+#three{
+    display: flex;
+    align-items: center;
+    height: 160px;
+    color: white;
+    padding: 0 0 0 .5rem;
+    background-color: brown;
+    font-size: small;
+}
+#threetwo{
+    display: flex;
+    align-items: center;
+    height: 160px;
+    color: black;
+    padding: 0 0 0 .5rem;
+    background-color:white;
+    font-size: small;
+    margin: 0 1rem;
+}
+#threetwo b{
+    display: block;
+    background-color: rgb(175, 84, 175);
+    width: 50px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+footer{
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    padding: 0 0 2rem;
+}
+footer .first{
+    height: 18vh;
+    width: 15%;
+    padding: 1rem;
+    line-height: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: small;
+}
+.first img{
+    height:20px;
+}
+.second{
+    color: white;
+    line-height: 4px;
+}
+.second h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second p{
+    font-size: small;
+}
+.second button{
+    background-color: brown;
+    border: none;
+    color: white ;
+    margin: 3px;
+    width: 154.5px;
+}
+.third{
+    color: white;
+    line-height: 2px;
+    margin: 0 1rem;
+}
+.third h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.third li{
+    line-height: 20px;
+    list-style-type: none;
+    font-size: small;
+}
+.fourth{
+    width: 150px;
+    color: white;
+}
+.fourth h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1px;
+}
+.fourth p{
+    line-height: 15px;
+    font-size: small;
+}
+.fourth button{
+    background-color: darkorange;
+    color: white;
+    border: none;
+}
+.mfot{
+    display: flex;
+    justify-content: center;
+}
+
+#foot{
+    background-color: rgb(94, 93, 93);
+    width: 500px;
+    color: white;
+    font-size: small;
+    border-radius: 10px;
+    height: 10vh;
+    text-align: center;
+    /* margin-bottom: 10px; */
+
+    /* margin: 0 100px ;  */
+       
+}

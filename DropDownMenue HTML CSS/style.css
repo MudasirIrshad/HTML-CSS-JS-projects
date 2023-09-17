@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 99vw;
+}
+nav li{
+    margin-left:auto;
+    list-style-type: none;
+    font-size: small;
+    
+}
+nav li img{
+    
+    height: 10px;
+}
+nav ul{
+    display: flex;
+    margin: 0 .8rem;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    position: relative;
+    list-style-type: none;
+    padding: 1rem;
+    font-size: small;
+}
+nav ul #li:hover{
+    background-color:  rgb(247, 55, 87);
+}
+#navli{
+    margin-right: 1rem;
+}
+nav ul ul{
+    display: none;
+    position:absolute;
+    background-color:beige;
+    width: 17vw;
+    left: 0;
+    
+}
+
+nav ul li:hover>ul{
+    margin: 1rem 0;
+    line-height: 5px;
+    display: block;
+    cursor: pointer;
+    font-size: small;
+
+}
+nav ul ul #liBox{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    padding: 0 0 0 3px;
+}
+nav ul ul #liBox .box{
+    
+    font-size:7pt;
+    background-color:   rgb(247, 55, 87);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-left: auto;
+}
+main{
+    
+    background-color:  rgb(247, 55, 87);
+    text-align: center;
+    color:white;
+    height: 40vh;
+    margin: 0 .8rem;
+    
+}
+main h1{
+    padding: 6.5rem;   
+}

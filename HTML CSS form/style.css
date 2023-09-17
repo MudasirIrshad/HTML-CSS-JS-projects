@@ -1,0 +1,85 @@
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: black solid 1px;
+    cursor: pointer;
+    float: right;
+  }
+  #password{
+    width: 380px;
+    height: 41px;
+    border:lightgray solid 1px;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 0 15px 0;
+  }
+  /* Style the container */
+  .container {
+    /* border-radius: 5px; */
+    color: grey;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 400px;
+    line-height: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .container h1,p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1px;
+  }
+  @media screen and (max-width: 100vw) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  main{
+    display: flex;
+    
+    background-color: rgb(32, 32, 107);
+    padding: 1rem;
+    
+    flex-direction: column; 
+    align-items: center;
+  }
+  .last{
+    text-align: center;
+    color: gray;
+    padding: 3rem 0 0 0;
+  }
+ .last li{
+    display: inline;
+    text-align: center;
+    color: darkcyan;
+  }
+ #white{
+    color: white;
+    list-style: none;
+  }
+  main p a{
+    color:#04AA6D;
+    text-decoration: none;
+  }
+
